@@ -1,0 +1,15 @@
+﻿venv/
+.venv/
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
+.env
+.env.*
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+app_backup*.py
+app_before_*.py
+fix_emojis.py
+fix_clash_emoji.py
+update_time_slots.py
