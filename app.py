@@ -906,6 +906,60 @@ li[role="option"]:hover {
     font-size: 30px !important;
     font-weight: 700 !important;
 }
+
+/* ===== ExamSync Sidebar Expand Button ===== */
+[data-testid="collapsedControl"] {
+    background-color: #D6E7FF !important;
+    border: 1px solid #B8D2FA !important;
+    border-radius: 10px !important;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.12) !important;
+}
+
+[data-testid="collapsedControl"] button,
+[data-testid="collapsedControl"] svg {
+    color: #1D4ED8 !important;
+    fill: #1D4ED8 !important;
+}
+
+[data-testid="collapsedControl"]:hover {
+    background-color: #BFDBFE !important;
+}
+
+/* ===== Fix ExamSync Sidebar Expand Button ===== */
+[data-testid="stSidebarCollapsedControl"],
+[data-testid="collapsedControl"],
+[data-testid="stSidebarCollapsedControl"] button,
+[data-testid="collapsedControl"] button {
+    background-color: #D6E7FF !important;
+    color: #1D4ED8 !important;
+    border: 1px solid #B8D2FA !important;
+    border-radius: 10px !important;
+    opacity: 1 !important;
+}
+
+[data-testid="stSidebarCollapsedControl"] svg,
+[data-testid="collapsedControl"] svg {
+    color: #1D4ED8 !important;
+    fill: #1D4ED8 !important;
+    stroke: #1D4ED8 !important;
+    opacity: 1 !important;
+}
+
+[data-testid="stSidebarCollapsedControl"]:hover,
+[data-testid="collapsedControl"]:hover {
+    background-color: #BFDBFE !important;
+}
+
+/* ===== ExamSync Navigation Arrow: Direct Icon Fix ===== */
+[data-testid="stIconMaterial"] {
+    color: #1D4ED8 !important;
+    opacity: 1 !important;
+}
+
+[data-testid="stIconMaterial"][aria-hidden="true"] {
+    color: #1D4ED8 !important;
+}
+
 </style>
 """, unsafe_allow_html=True)
 
